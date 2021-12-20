@@ -1,5 +1,6 @@
 # tcl_movie_filetype_verifier (aka ftype)
-A simple TCL commandline script to verify video media files match their extensions. Supports avi/mkv/mp4/mov/wmv.
+A simple TCL commandline script to verify video media files match their extensions. 
+Supports avi/mkv/mp4/mov/wmv.
 
 This project started out to identify Flash Video files incorrectly named as one of the common video file types,
 but since then, it evolved into a simplified header evaluation tool that can determine the supported video file
