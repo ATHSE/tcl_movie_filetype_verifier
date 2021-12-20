@@ -1,4 +1,4 @@
-# Movie Filetype Verifier 1.0000003E (c) 2021
+# Movie Filetype Verifier 1.0000003F (c) 2021
 #
 # MIT License:
 #
@@ -122,7 +122,7 @@ proc mkv {} {
 		} else {
 			append dmsg "\[valid\] "
 		}
-		if {[lsearch -nocase $subtype $sname] == -1} {
+		if {[lsearch $subtype [string toupper $sname]] == -1} {
 			append dmsg "\[*inv*\] "
 			incr errcnt
 		} else {
