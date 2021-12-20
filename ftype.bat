@@ -1,0 +1,2 @@
+@tclsh ftype.tcl
+pause
