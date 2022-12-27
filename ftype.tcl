@@ -1,3 +1,4 @@
+#!/usr/bin/tclsh
 # Movie Filetype Verifier 1.0000003F (c) 2021
 #
 # MIT License:
