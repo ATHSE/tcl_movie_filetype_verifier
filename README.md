@@ -13,6 +13,5 @@ results for each field, [valid] or [*inv*], for the type and subtypes respective
 does not attempt to read the entire file, or verify the videos are in fact functional or have valid data, this
 tool is only reading the header region. The tool doesn't modify any files it scans.
 
-A batchfile is included for Windows users, for everyone else the .tcl should be modified to include the shell 
-comment as the first line. The script takes no commandline arguments, ignoring filetypes didn't seem to be of
-importance given the speed it processes a directory.
+A batchfile is included for Windows users. The script takes no commandline arguments, ignoring filetypes didn't 
+seem to be of importance given the speed it processes a directory.
